@@ -1,3 +1,5 @@
+/* Configurações da header */
+
 header{
     background-color:black;
     border-top: solid;
@@ -5,11 +7,14 @@ header{
     text-align: right; 
 }
 
+/* Configurações do menu de navegação */
+
 nav{
         text-align: right;
         border-bottom: 1.5rem solid black;
 }
 
+/* Config. do texto do menu de nav */
 a{
     color:aliceblue;
     font-size: 1.3rem;
@@ -18,43 +23,50 @@ a{
     margin-right: 2rem;
     padding-bottom: 0.5rem;
 }
+/* Corpo da página */
+
 body{
     margin: 0rem;
     padding: 0rem;
     background: rgb(142,143,144);
     background: radial-gradient(circle, rgba(142,143,144,1) 12%, rgba(255,254,254,1) 96%);
 }
+
+/* Container da imagem e do formulário */
 .container{
+    display: flex;
     width: 100%;
     height: 100%;
 }
+
+/* Container da imagem */
 .form-image{
     display: flex;
-    width: 25rem;
-    height: 40rem;
+    width: 20rem;
+    height: 35rem;
     margin-top: 2rem;
-    margin-left: 60rem;
+    margin-left: 25rem;
 }
+
+/* Config. da Imagem */
 img{
     display: flex;
-    width: 25rem;
-    height: 40rem;
+    width: 20rem;
+    height: 35rem;
     box-shadow: 15px 10px 10px black;
 }
 
-
+/* Container do Form. */
 .row{
     padding: 60px;
-    display: table;
-    position:fixed;
+    display: flex;
     width: 50%;
     height: 50%;
     text-align: left;
-    left: 25%;
-    bottom: 15%;
+    margin-left: 5rem;
 }
 
-
+/* Conf. Form */
 form{
     height: 100%;
     width: 55%;
@@ -62,6 +74,8 @@ form{
     background-color:transparent;
 
 }
+
+/*  Área de inserção do form */
 
 input, textarea {
 width: 95%;
@@ -72,13 +86,17 @@ border: 1px solid black;
 
 }
 
+/* config. texto do form */
+
 label{
 font-weight: bold;
 padding-bottom: 5px;
-display: inline-block;
+display: flex;
 font-family: "Fira Code";
 
 }
+
+/* Config. botão do form */
 
 button{
     background-color: black;
