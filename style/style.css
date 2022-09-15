@@ -1,0 +1,84 @@
+header{
+    background-color:black;
+    border-top: solid;
+    border-width: 1.5rem;
+    text-align: right; 
+}
+
+nav{
+        text-align: right;
+        border-bottom: 1.5rem solid black;
+}
+
+a{
+    color:aliceblue;
+    font-size: 1.3rem;
+    font-family: "Fira Code";
+    font-weight: 500;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+.foto{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+img{
+    display: flex;
+    width: 550px;
+    height: 550px;
+    box-shadow: 1.5rem 1rem 1rem black;
+    
+}
+button{
+    width: 8rem;
+    height: 3rem;
+    background-color: transparent;
+    font-family: "Fira Code";
+    font-weight: bold;
+
+}
+
+.box{
+    display: flex;
+    width: 25rem;
+    height: 10rem;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 7rem;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+}
+.container2{
+    display: flex;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(142,143,144);
+    background: radial-gradient(circle, rgba(142,143,144,1) 12%, rgba(255,254,254,1) 96%);
+}
+
+
+.header-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+h2{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+}

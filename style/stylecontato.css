@@ -1,0 +1,90 @@
+header{
+    background-color:black;
+    border-top: solid;
+    border-width: 1.5rem;
+    text-align: right; 
+}
+
+nav{
+        text-align: right;
+        border-bottom: 1.5rem solid black;
+}
+
+a{
+    color:aliceblue;
+    font-size: 1.3rem;
+    font-family: "Fira Code";
+    font-weight: 500;
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+body{
+    margin: 0rem;
+    padding: 0rem;
+    background: rgb(142,143,144);
+    background: radial-gradient(circle, rgba(142,143,144,1) 12%, rgba(255,254,254,1) 96%);
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.form-image{
+    display: flex;
+    width: 25rem;
+    height: 40rem;
+    margin-top: 2rem;
+    margin-left: 60rem;
+}
+img{
+    display: flex;
+    width: 25rem;
+    height: 40rem;
+    box-shadow: 15px 10px 10px black;
+}
+
+
+.row{
+    padding: 60px;
+    display: table;
+    position:fixed;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+    left: 25%;
+    bottom: 15%;
+}
+
+
+form{
+    height: 100%;
+    width: 55%;
+    margin-right: auto;
+    background-color:transparent;
+
+}
+
+input, textarea {
+width: 95%;
+padding: 10px;
+margin-bottom: 1em;
+font: 1em;
+border: 1px solid black;
+
+}
+
+label{
+font-weight: bold;
+padding-bottom: 5px;
+display: inline-block;
+font-family: "Fira Code";
+
+}
+
+button{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 2px;
+}
